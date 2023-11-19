@@ -1,0 +1,84 @@
+Esprit chasse 1.7ms et poursuite max 2.8ms
+
+Spectre chasse 1.7ms et poursuite max 2.8ms
+
+Fantôme chasse 1.7ms et poursuite max 2.8ms
+
+polter chasse 1.7ms et poursuite max 2.8ms
+
+Banshee chasse 1.7ms et poursuite max 2.8ms
+
+Djin chasse 1.7ms et poursuite max 2.8ms sans courant / pouvoir a 3 metres de toi 2.5ms // audio-2-5ms //
+
+Cauchemar chasse 1.7ms et poursuite max 2.8ms
+
+Le Revenant chasse // 1ms audio-1ms // et poursuite max 3ms // audio-3ms //
+
+Ombre chasse 1.7ms et poursuite max 2.8ms
+
+Démon chasse 1.7ms et poursuite max 2.8ms
+
+Yurei chasse 1.7ms et poursuite max 2.8ms
+
+Oni chasse 1.7ms et poursuite max 2.8ms
+
+Yokai chasse 1.7ms et poursuite max 2.8ms
+
+hantu 15°C > 22°C 1.4ms // audio-1-4ms // et -10°C > 3°C 2.7ms // audio-2-7ms //
+
+Goryo chasse 1.7ms et poursuite max 2.8ms
+
+Myling chasse 1.7ms et poursuite max 2.8ms
+
+L'Onryo chasse 1.7ms et poursuite max 2.8ms
+
+Les Jumeaux :
+jumeaux lent chasse 1.5ms // audio-1-5ms // et poursuite max 2.28ms // audio-2-28ms //
+jumeaux rapide Chasse 1.9ms // audio-1-9ms // et Poursuite max 3.14ms // audio-3-14ms //
+
+Raiju sans electonique chasse 1.7ms et poursuite max 2.8ms / Raiju avec electronique (pouvoir) 2.5ms // audio-2-5ms //
+
+Obake chasse 1.7ms et poursuite max 2.8ms // Pouvoir dissimulation de bruit de pas 1.7ms // audio-1-7dms //
+
+Le Mimic change de buit de pas toute les deux minutes
+
+Moroï (pouvoir) chasse 50% santé mentale 1.5ms // audio-1-5ms // et 0% de santé mentale 3.7ms // audio-3-7ms //
+
+Deogen en chasse loins de toi 3ms // audio-3ms // et proche 0.4ms // audio-0-4ms //
+
+Thayé debut de partie a 2.75ms fixe // audio-2-75ms // la où il est le plus jeune et il passera jusqu'a 10 paliers de changement de vitesse jusqu'a atteindre ça viellesse maximum a une vitesse de 1ms // audio-1ms //
+
+
+
+
+
+
+
+      var audioElements = document.querySelectorAll(".audio-1-7ms");
+      var audioElements = document.querySelectorAll(".audio-2-8ms");
+      var audioElements = document.querySelectorAll(".audio-2-5ms");
+      var audioElements = document.querySelectorAll(".audio-3ms");
+      var audioElements = document.querySelectorAll(".audio-1-4ms");
+      var audioElements = document.querySelectorAll(".audio-2-7ms");
+      var audioElements = document.querySelectorAll(".audio-1-5ms");
+      var audioElements = document.querySelectorAll(".audio-2-28ms");
+      var audioElements = document.querySelectorAll(".audio-1-9ms");
+      var audioElements = document.querySelectorAll(".audio-3-14ms");
+      var audioElements = document.querySelectorAll(".audio-2-5ms");
+      var audioElements = document.querySelectorAll(".audio-1-7dms");
+      var audioElements = document.querySelectorAll(".audio-3-7ms");
+      var audioElements = document.querySelectorAll(".audio-0-4ms");
+      var audioElements = document.querySelectorAll(".audio-2-75ms");
+      var audioElements = document.querySelectorAll(".audio-1ms");
+
+
+
+
+
+	
+
+
+
+
+
+
