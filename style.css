@@ -21,20 +21,27 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+ 
+  
 }
 
 .entities-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  
 }
 
 .entity {
-  border: 1px solid #ccc;
+
+  display: flex;
+  border: 2px solid #979696;
   border-radius: 5px;
-  padding: 10px;
+  padding: 30px; /* Augmente la valeur de padding */
   cursor: pointer;
   transition: background-color 0.3s;
+  margin-bottom: 15px;
+justify-content: center;
 }
 
 .entity:hover {
@@ -44,6 +51,7 @@ main {
 .entity h2 {
   margin: 0;
   cursor: pointer;
+
 }
 
 .entity-content {
@@ -57,6 +65,7 @@ main {
   border-radius: 5px;
   padding: 20px;
   z-index: 999;
+ 
 }
 
 /* #sectionEntites {
