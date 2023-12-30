@@ -651,6 +651,7 @@ var entite = [
   },
 ];
 
+
 function toggleDetails(event) {
   var content = event.target.nextElementSibling;
   content.style.display = content.style.display === "none" ? "block" : "none";
