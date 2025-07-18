@@ -1,4 +1,4 @@
-// Données des entités (déjà définies dans le fichier original)
+
 var entite = [
   {
     id: "esprit",
@@ -672,13 +672,12 @@ function initializeApp() {
 }
 
 function loadAllEntities() {
-    // Les entités sont déjà définies dans le fichier original
-    // Cette fonction pourrait être utilisée pour charger depuis une API
+
     console.log('Entités chargées:', entite.length);
 }
 
 function setupEventListeners() {
-    // Recherche
+
     const searchInput = document.getElementById('searchInput');
     searchInput.addEventListener('input', handleSearch);
     
@@ -688,7 +687,7 @@ function setupEventListeners() {
         checkbox.addEventListener('change', handleEvidenceFilter);
     });
     
-    // Bouton effacer les filtres
+
     const clearBtn = document.getElementById('clearFilters');
     clearBtn.addEventListener('click', clearAllFilters);
     
@@ -729,10 +728,10 @@ function filterEntities(searchTerm, selectedEvidence) {
         const entityName = entityData.nom.toLowerCase();
         const entityEvidence = entityData.preuves;
         
-        // Filtre par nom
+   
         const matchesSearch = searchTerm === '' || entityName.includes(searchTerm);
         
-        // Filtre par preuves
+     
         let matchesEvidence = true;
         if (selectedEvidence.length > 0) {
             matchesEvidence = selectedEvidence.every(evidence => 
@@ -750,14 +749,14 @@ function filterEntities(searchTerm, selectedEvidence) {
 }
 
 function clearAllFilters() {
-    // Effacer la recherche
+
     document.getElementById('searchInput').value = '';
     
     // Décocher toutes les preuves
     const checkboxes = document.querySelectorAll('.evidence-checkbox input');
     checkboxes.forEach(cb => cb.checked = false);
     
-    // Afficher toutes les entités
+
     displayEntities(entite);
 }
 
@@ -887,7 +886,7 @@ function formatAudioTitle(key) {
 }
 
 function playAudio(audioPath, button) {
-    // Si le même audio est déjà en cours de lecture, l'arrêter
+
     if (currentAudio && currentAudio.src.endsWith(audioPath)) {
         currentAudio.pause();
         currentAudio = null;
@@ -895,13 +894,13 @@ function playAudio(audioPath, button) {
         return;
     }
     
-    // Arrêter l'audio en cours s'il y en a un
+  
     if (currentAudio) {
         currentAudio.pause();
         currentAudio = null;
     }
     
-    // Créer et jouer le nouvel audio
+ 
     currentAudio = new Audio(audioPath);
     
     currentAudio.addEventListener('ended', () => {
@@ -927,7 +926,7 @@ function closeModal() {
     const modal = document.getElementById('entityModal');
     modal.style.display = 'none';
     
-    // Arrêter l'audio en cours
+   
     if (currentAudio) {
         currentAudio.pause();
         currentAudio = null;
